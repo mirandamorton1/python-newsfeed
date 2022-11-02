@@ -3,9 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
+  Python News Feed is similar to a previous assignment that was built using JavaScript. Users are able to create a profile and may post, upvote or comment on other posts.
   
-  
-![Screen Shot 2022-07-04 at 2 56 26 PM](https://user-images.githubusercontent.com/107001559/177211216-2ed1bc50-3374-45b8-affb-134eefe6b75c.png)
+![Screen Shot 2022-11-02 at 12 24 34 PM](https://user-images.githubusercontent.com/107001559/199559061-c8422b56-9cbc-410e-86c6-e02c798163c2.png)
+
 
   ## Table of Contents
   * [Description](#description)
@@ -20,7 +21,7 @@
   To install, clone the repository and place it in your terminal.
   ### Usage:
   To use this app, go to the webpage: https://chatt-python.herokuapp.com/
-  There, you will see today's date as well as past, current, and future time blocks. Simply click in the time box you would like to add to and type. Click the save button to save that event. You can also delete your events as well by clicking the trash button. 
+  There, you will be directed to create an account or login. After signing you, you are able to make posts and make comments on the posts of other users. 
   ### License
 
   
@@ -30,12 +31,13 @@
 `This project is licensed under MIT`
 
   ### Technology Used:
-  - HTML
-  - CSS
-- JavaScript
-- jQuery
-- Moment.js
-- Bootstrap
+- Python
+- Flask
+- SQLAlchemy
+- PyMySQL
+- bcrypt
+- python-dotenv
+- Gunicorn
   ### Contributors: 
   To contribute to this project, clone this repo locally and commit your code on a separate branch. 
   #### Contributors:
